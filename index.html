@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie App</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <div class="main-title">Watch Catalogue</div>
+      <div class="search-nav-wrap">
+        <form class="search-wrapper desktop-search" id="search-form">
+        <input type="text" class="search" id="search" placeholder="Search">
+        </form>
+        <img class="nav-entry-btn nav-btn" id="nav-entry" src="./assets/nav-entry.svg" alt="nav-btn">
+      </div>
+    </div>
+    <div class="category-row responsive-category">
+    
+      
+      <div class="category-container">
+        <img class="nav-exit-btn nav-btn" id="nav-exit" src="./assets/nav-exit.svg" alt="exit-btn">
+        <h2>Movie</h2>
+        <ul class="category-list">
+          <li><a>Action</a></li>
+          <li><a>Adventure</a></li>
+          <li><a>Animation</a></li>
+          <li><a>Comedy</a></li>
+          <li><a>Crime</a></li>
+          <li><a>Documentary</a></li>
+          <li><a>Drama</a></li>
+          <li><a>Family</a></li>
+          <li><a>Fantasy</a></li>
+          <li><a>History</a></li>
+          <li><a>Horror</a></li>
+          <li><a>Music</a></li>
+          <li><a>Mystery</a></li>
+          <li><a>Romance</a></li>
+          <li><a>Science Fiction</a></li>
+          <li><a>TV Movie</a></li>
+          <li><a>Thriller</a></li>
+          <li><a>War</a></li>
+          <li><a>Western</a></li>
+        </ul>
+      </div>
+
+      <div class="category-container">
+        <h2>TV Shows </h2>
+        <ul class="category-list">
+          <li><a >Action & Adventure</a></li>
+          <li><a >Animation</a></li>
+          <li><a >Comedy</a></li>
+          <li><a >Crime</a></li>
+          <li><a >Documentary</a></li>
+          <li><a >Drama</a></li>
+          <li><a >Family</a></li>
+          <li><a >Kids</a></li>
+          <li><a >Mystery</a></li>
+          <li><a >News</a></li>
+          <li><a >Reality</a></li>
+          <li><a >Sci-Fi & Fantasy</a></li>
+          <li><a >Soap</a></li>
+          <li><a >Talk</a></li>
+          <li><a >War & Politics</a></li>
+          <li><a >Western</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <main id="main" class="movie-section">
+      <h3 id="title-template">MOVIES</h3>
+      <div id="movie-cards">
+
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
