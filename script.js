@@ -47,7 +47,6 @@ function setDefaultTransform() {
     const isSmallScreen = window.innerWidth <= 768;
     responsiveCategory.style.transition = isSmallScreen ? 'transform 0.3s ease-in' : 'none';
     responsiveCategory.style.transform = isSmallScreen ? 'translateX(150%)' : 'translateX(0%)';
-    responsiveCategory.style.overflowY = isSmallScreen ? 'scroll' : 'none';
   }
   
 
