@@ -10,11 +10,11 @@ The **Watch Catalogue Webpage** is a simple user-friendly interface designed for
 
 ## Technologies Utilized
 
-- **HTML**: The backbone for structuring the webpage content.
-- **CSS**: Used for styling and ensuring a visually appealing user interface.
-- **JavaScript**: Enables dynamic content loading, interaction, and API calls.
-- **TMDB API**: Integrated to fetch information about movies and TV shows.
-- **ChatGPT**: Provided useful code analysis and template production
+- **HTML**
+- **CSS**
+- **JavaScript**
+- **TMDB API**
+- **ChatGPT**
 ## API Overview
 
 The app interacts with the TMDB API to retrieve information about movies and TV shows. The API requests are made with an API key, and various endpoints are utilized to get popular movies, TV shows, and search results.
@@ -40,17 +40,6 @@ The app interacts with the TMDB API to retrieve information about movies and TV 
 ### Navigation
 
 - **`handleNavButtonClick()`**: Manages the visibility and animation of the responsive navigation bar.
-
-## Code Structure
-
-The code is organized into three main sections: HTML, CSS, and JavaScript.
-
-- **HTML**: Defines the structure of the webpage, including headers, containers, and movie cards.
-  
-- **CSS**: Provides styling for the webpage, including color schemes, fonts, and responsiveness.
-
-- **JavaScript**: Contains functions for API interaction, content display, and user interaction.
-
 
 ## Minor Bugs
 
